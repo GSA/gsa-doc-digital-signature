@@ -19,20 +19,29 @@ For developers, the source code, 3rd party libraries, and drivers can be importe
 
 Initial setup:
 * Import initial source code in the "/src" directory to your Java IDE project source code directory.
-* Add the specific opensc driver for the system type you will be developing for (i.e. if you are developing on a 64-bit system, copy the opensc driver in the 64-bit directory, and paste the driver in the "lib" directory with the Bouncy Castle libraries.
+* Add the specific OpenSC driver for the system type you will be developing for (i.e. if you are developing on a 64-bit system, copy the opensc driver in the 64-bit directory, and paste the driver in the "lib" directory with the Bouncy Castle libraries.
 * Import "lib" directory to your Java IDE project.
 * Use the "GUI" class, as your main executable class for executing the tool.
 
-### Licenses
+### Dependencies
 
-The GSA Document Signing Tool leverages 3rd party open source libraries including:
-* [Java] http://www.oracle.com/
+The GSA Document Signing Tool leverages 3rd party libraries including:
+* [Oracle Java] http://www.oracle.com/
 * [Bouncy Castle] https://www.bouncycastle.org/
 * [opensc] https://github.com/OpenSC/OpenSC
 * [commons-io] http://commons.apache.org/proper/commons-io/
 
+The tool has not been tested with alternate versions of Java such as OpenJDK.  Contributors are welcome to determine compatibility and update this README and dependencies appropriately.
+
 On Windows, the installer was built using [inno setup] http://www.jrsoftware.org/
+
+### License
+This project is in the public domain within the United States.
+
+We waive copyright and related rights in the work worldwide through the CC0 1.0 Universal public domain dedication.  
+
+Please review the License found in this repository. 
 
 ### Contact Information
 
-Please contact icam@gsa.gov for any questions or issues related to the tool.
+For issues, please open an Issue in this repository.  Contact icam at gsa.gov for any additional questions on contributing.
