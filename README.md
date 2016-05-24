@@ -1,12 +1,19 @@
 ### Description
-This repo contains the General Services Administration (GSA) Document Signing tools used for digitally signing documents and files with Personal Identity Verification (PIV) cards. The main purpose of the tool is for Federal agencies to use for digitally signing documents to be submitted to the Office of the Federal Register's (OFR) document submission web portal. The tool was developed using Java 8. It relies on Bouncy Castle libraries for the signing operations, Apache Commons for file operations, and OpenSC for PIV operations.
+This repository contains the General Services Administration (GSA) Document Signing tools used for digitally signing documents and files with Personal Identity Verification (PIV) credentials. 
+
+The main purpose of the tool is for Federal agencies to use for digitally signing documents to be submitted to the Office of the Federal Register's (OFR) document submission web portal. The tool was developed using Java 8. It relies on Bouncy Castle libraries for the signing operations, Apache Commons for file operations, and OpenSC for PIV operations.
+
 
 ### How does it work?
 The GSA Document Signing Tool includes a simple, 508-compliant Graphical User Interface (GUI) to assist in the signing of your desired document. The tool allows the user to select the desired file they'd like signed, a field to enter the user's PIV application PIN , and a "Sign" button to initiate the signing. The tool automatically detects any smart card readers and PIV cards connected to the system. The tool utilizes PKCS#11 to interact with the reader and PIV card. The signed file is formatted in an enveloped PKCS#7 (.p7m) file, which is the required format for the OFR's document submission portal. In order for the tool to sign correctly, the PIV card MUST contain a valid digital signing certificate (i.e. Key usage of Digital Signature and Non-repudiation). If it doesn't contain a valid digital signing certificate, the application will provide a descriptive error messages.
 
 ### Installation/Usage Instructions
 
-The GSA Document Signing Tool includes a Windows 32-bit, 64-bit, and MacOS version. Verify your system's operating system before installing. Use the following User Guides below for guiding you through the installation process:
+The GSA Document Signing Tool includes a Windows 32-bit, 64-bit, and MacOS version. Verify your system's operating system before installing. 
+
+The executables can be found under Releases.  
+
+Use the following User Guides below for guiding you through the installation process:
 
 * Windows Installation Guide - https://github.com/GSA/gsa-doc-digital-signature/blob/platforms/microsoft/GSA_Signing_Tool_User_Guide-64bit.pdf
 * MacOS Installation Guides - https://github.com/GSA/gsa-doc-digital-signature/blob/platforms/apple/GSA_Signing_Tool_User_Guide-Mac.pdf
