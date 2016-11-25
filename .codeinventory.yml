@@ -1,0 +1,10 @@
+name: 'GSA Document Signing Tools'
+description: 'Tools used for digitally signing documents and files with Personal Identity Verification (PIV) credentials'
+license: 'https://github.com/GSA/gsa-doc-digital-signature/blob/platforms/LICENSE.md'
+openSourceProject: 1
+governmentWideReuseProject: 1
+tags:
+    - piv
+    - digital-signature
+contact:
+    email: icam@gsa.gov
