@@ -11,7 +11,7 @@ The GSA Document Signing Tool includes a simple, 508-compliant Graphical User In
 
 The GSA Document Signing Tool includes a Windows 32-bit, 64-bit, and MacOS version. Verify your system's operating system before installing. 
 
-The executables can be found under Releases.  
+The installation files (executables) can be found under [Releases](https://github.com/GSA/gsa-doc-digital-signature/releases).
 
 Use the following User Guides below for guiding you through the installation process:
 
