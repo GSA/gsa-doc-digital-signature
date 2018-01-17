@@ -5,13 +5,13 @@ The main purpose of the tool is for Federal agencies to use for digitally signin
 
 
 ### How does it work?
-The GSA Document Signing Tool includes a simple, 508-compliant Graphical User Interface (GUI) to assist in the signing of your desired document. The tool allows the user to select the desired file they'd like signed, a field to enter the user's PIV application PIN , and a "Sign" button to initiate the signing. The tool automatically detects any smart card readers and PIV cards connected to the system. The tool utilizes PKCS#11 to interact with the reader and PIV card. The signed file is formatted in an enveloped PKCS#7 (.p7m) file, which is the required format for the OFR's document submission portal. In order for the tool to sign correctly, the PIV card MUST contain a valid digital signing certificate (i.e. Key usage of Digital Signature and Non-repudiation). If it doesn't contain a valid digital signing certificate, the application will provide a descriptive error messages.
+The GSA Document Signing Tool includes a simple, 508-compliant Graphical User Interface (GUI) to assist in the signing of your desired document. The tool allows the user to select the desired file they'd like signed, a field to enter the user's PIV application PIN, and a "Sign" button to initiate the signing. The tool automatically detects any smart card readers and PIV cards connected to the system. The tool utilizes PKCS#11 to interact with the reader and PIV card. The signed file is formatted in an enveloped PKCS#7 (.p7m) file, which is the required format for the OFR's document submission portal. In order for the tool to sign correctly, the PIV card MUST contain a valid digital signing certificate (i.e. Key usage of Digital Signature and Non-repudiation). If it doesn't contain a valid digital signing certificate, the application will provide a descriptive error messages.
 
 ### Installation/Usage Instructions
 
 The GSA Document Signing Tool includes a Windows 32-bit, 64-bit, and MacOS version. Verify your system's operating system before installing. 
 
-The executables can be found under Releases.  
+The installation files (executables) can be found under [Releases](https://github.com/GSA/gsa-doc-digital-signature/releases).
 
 Use the following User Guides below for guiding you through the installation process:
 
