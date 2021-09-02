@@ -1,3 +1,5 @@
+This tool is deprecated. Please follow these new procedures - https://playbooks.idmanagement.gov/signfedregister/
+
 ### Description
 This repository contains the General Services Administration (GSA) Document Signing tools used for digitally signing documents and files with Personal Identity Verification (PIV) credentials. 
 
